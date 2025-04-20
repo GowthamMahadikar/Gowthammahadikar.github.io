@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ae5609f3.css",
+    "main.js": "/static/js/main.952bfa95.js",
+    "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/mcg.png": "/static/media/mcg.aa4c3f6c9a62d7a25945.png",
+    "static/media/certificate2.png": "/static/media/certificate2.436722fc637d165be8e4.png",
+    "static/media/home-main.svg": "/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
+    "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/Certificate.png": "/static/media/Certificate.4655b2a64dc18d270bd6.png",
+    "static/media/Gowtham Mahadikar.pdf": "/static/media/Gowtham Mahadikar.c58aed1b7a898ab13686.pdf",
+    "static/media/logo.png": "/static/media/logo.50bd8ab3c67531cad538.png",
+    "static/media/college.jpg": "/static/media/college.0b8b096105b4501e06b6.jpg",
+    "static/media/structure.jpeg": "/static/media/structure.955a9b1c04819e939b02.jpeg",
+    "static/media/rnslogo.jpg": "/static/media/rnslogo.388002e94271e0a10528.jpg",
+    "static/media/daali.png": "/static/media/daali.7afe2a050d5ae65097f3.png",
+    "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/avatar.svg": "/static/media/avatar.7f806e40d46fc76fbc3c4a3d71349951.svg",
+    "static/media/contentease1.jpg": "/static/media/contentease1.e22914f859bb9c656cb8.jpg",
+    "static/media/pre.svg": "/static/media/pre.4410c5baaa673cc131da.svg",
+    "index.html": "/index.html",
+    "main.ae5609f3.css.map": "/static/css/main.ae5609f3.css.map",
+    "main.952bfa95.js.map": "/static/js/main.952bfa95.js.map",
+    "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae5609f3.css",
+    "static/js/main.952bfa95.js"
+  ]
+}
