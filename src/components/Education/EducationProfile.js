@@ -88,7 +88,7 @@ function EducationProfile() {
             <InternshipCard
               companyName="ContentEase.ai"
               role="Software Developer Intern"
-              duration="Nov 2023 - June 2024"
+              duration="Nov 2023 - July 2024"
               description="Developed and optimized software solutions, focusing on scalable and efficient full-stack applications."
               logoSrc={ContentEaselogo}
             />
@@ -97,7 +97,7 @@ function EducationProfile() {
             <InternshipCard
               companyName="Daali Pictures"
               role="Prompt Engineer Intern"
-              duration="Jan 2024 - June 2024"
+              duration="April 2024 - March 2025"
               description="Crafted and optimized prompts to enhance AI model outputs, ensuring accuracy and alignment with project goals."
               logoSrc={Daalilogo}
             />
@@ -109,3 +109,4 @@ function EducationProfile() {
 }
 
 export default EducationProfile;
+
