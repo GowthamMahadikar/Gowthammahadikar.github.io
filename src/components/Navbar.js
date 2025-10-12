@@ -76,7 +76,7 @@ function NavBar() {
                 to="/education"
                 onClick={() => updateExpanded(false)}
               >
-                <FaSchool  style={{ marginBottom: "2px" }} /> Education
+                <FaSchool  style={{ marginBottom: "2px" }} /> Education & Internships
               </Nav.Link>
             </Nav.Item>
            
@@ -131,3 +131,4 @@ function NavBar() {
 }
 
 export default NavBar;
+
