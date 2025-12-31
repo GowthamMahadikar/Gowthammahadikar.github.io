@@ -102,6 +102,15 @@ function EducationProfile() {
               logoSrc={Daalilogo}
             />
           </Col>
+                <Col md={6} style={{ marginBottom: "20px" }}>
+            <InternshipCard
+              companyName="Daali Pictures"
+              role="Prompt Engineer Intern"
+              duration="April 2024 - March 2025"
+              description="Crafted and optimized prompts to enhance AI model outputs, ensuring accuracy and alignment with project goals."
+              logoSrc={Daalilogo}
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
@@ -109,4 +118,5 @@ function EducationProfile() {
 }
 
 export default EducationProfile;
+
 
