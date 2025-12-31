@@ -6,9 +6,9 @@ function Type() {
     <Typewriter
       options={{
         strings: [
+          "Ai Engineer Intern",
           "Software Developer Intern",
           "Prompt Engineer Intern",
-          "Open Source Contributor",
         ],
         autoStart: true,
         loop: true,
@@ -19,3 +19,4 @@ function Type() {
 }
 
 export default Type;
+
