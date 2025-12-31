@@ -9,6 +9,8 @@ import College from "../../Assets/college.jpg";
 import Rnslogo from "../../Assets/rnslogo.jpg";
 import Daalilogo from "../../Assets/daali.png";
 import ContentEaselogo from "../../Assets/contentease1.jpg";
+import Knowledgeflexlogo from "../../Assets/Knowledgeflexlogo.jpg";
+
 
 function EducationProfile() {
   return (
@@ -93,16 +95,16 @@ function EducationProfile() {
               logoSrc={ContentEaselogo}
             />
           </Col>
-          <Col md={6} style={{ marginBottom: "20px" }}>
+            <Col md={6} style={{ marginBottom: "20px" }}>
             <InternshipCard
-              companyName="Daali Pictures"
-              role="Prompt Engineer Intern"
-              duration="April 2024 - March 2025"
-              description="Crafted and optimized prompts to enhance AI model outputs, ensuring accuracy and alignment with project goals."
-              logoSrc={Daalilogo}
+              companyName="Knowledge Flex"
+              role="Ai Engineer Intern"
+              duration="December2025"
+              description="Developing end-to-end RAG pipelines using FAISS, Chroma, and Pinecone, significantly enhancing retrieval accuracy and contextual reasoning for enterprise applications."
+              logoSrc={Knowledgeflexlogo}
             />
           </Col>
-                <Col md={6} style={{ marginBottom: "20px" }}>
+          <Col md={6} style={{ marginBottom: "20px" }}>
             <InternshipCard
               companyName="Daali Pictures"
               role="Prompt Engineer Intern"
