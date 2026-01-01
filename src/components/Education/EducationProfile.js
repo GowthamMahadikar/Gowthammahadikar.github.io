@@ -99,7 +99,7 @@ function EducationProfile() {
             <InternshipCard
               companyName="Knowledge Flex"
               role="Ai Engineer Intern"
-              duration="December2025"
+              duration="December 2025"
               description="Developing end-to-end RAG pipelines using FAISS, Chroma, and Pinecone, significantly enhancing retrieval accuracy and contextual reasoning for enterprise applications."
               logoSrc={Knowledgeflexlogo}
             />
@@ -120,5 +120,6 @@ function EducationProfile() {
 }
 
 export default EducationProfile;
+
 
 
