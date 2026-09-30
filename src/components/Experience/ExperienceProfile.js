@@ -3,6 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import ExperienceCard from "./ExperienceCard";
 
+// Import localhost logos
+import Experience from "../../Assets/v4info.png";
+
 function ExperienceProfile() {
   return (
     <Container
