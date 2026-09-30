@@ -4,7 +4,7 @@ import Particle from "../Particle";
 import ExperienceCard from "./ExperienceCard";
 
 // Import localhost logos
-import Experience from "../../Assets/v4info.png";
+import v4info from "../../Assets/v4 info.png";
 
 function ExperienceProfile() {
   return (
@@ -54,7 +54,7 @@ function ExperienceProfile() {
               role="Generative AI Engineer"
               duration="September 2026 - Present"
               description="Working on Generative AI solutions, developing LLM-powered applications, RAG pipelines, and AI-driven enterprise solutions."
-              logoSrc={Experience}
+              logoSrc={v4info}
             />
           </Col>
         </Row>
