@@ -54,6 +54,7 @@ function ExperienceProfile() {
               role="Generative AI Engineer"
               duration="September 2026 - Present"
               description="Working on Generative AI solutions, developing LLM-powered applications, RAG pipelines, and AI-driven enterprise solutions."
+              logoSrc={Experience}
             />
           </Col>
         </Row>
