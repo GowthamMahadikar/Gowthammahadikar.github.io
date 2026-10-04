@@ -31,7 +31,7 @@ function EducationProfile() {
 
       <Container
         style={{
-          maxWidth: "800px",
+          maxWidth: "1200px",
           textAlign: "center",
           color: "white",
         }}
@@ -54,7 +54,7 @@ function EducationProfile() {
         </p>
 
         <Row className="justify-content-center" style={{ marginBottom: "30px" }}>
-          <Col md={6} style={{ marginBottom: "20px" }}>
+          <Col md={4} style={{ marginBottom: "20px" }}>
             <InternshipCard
               companyName="ContentEase.ai"
               role="Software Developer Intern"
@@ -64,7 +64,7 @@ function EducationProfile() {
             />
           </Col>
 
-          <Col md={6} style={{ marginBottom: "20px" }}>
+          <Col md={4} style={{ marginBottom: "20px" }}>
             <InternshipCard
               companyName="Knowledge Flex"
               role="AI Engineer Intern"
@@ -74,7 +74,7 @@ function EducationProfile() {
             />
           </Col>
 
-          <Col md={6} style={{ marginBottom: "20px" }}>
+          <Col md={4} style={{ marginBottom: "20px" }}>
             <InternshipCard
               companyName="Daali Pictures"
               role="Prompt Engineer Intern"
