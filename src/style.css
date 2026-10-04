@@ -161,12 +161,16 @@ button:focus {
 
 .navbar-nav .nav-link {
   color: white !important;
-  padding-right: 1rem !important;
-  padding-left: 1rem !important;
+  padding-right: 0.6rem !important;
+  padding-left: 0.6rem !important;
+  white-space: nowrap !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 4px !important;
 }
 
 .nav-link {
-  padding: 0.8rem 1rem !important;
+  padding: 0.5rem 0.6rem !important;
 }
 
 @media (max-width: 767px) {
@@ -177,7 +181,9 @@ button:focus {
 
 .navbar-nav .nav-item {
   position: relative;
-  margin-left: 20px;
+  margin-left: 5px;
+  display: flex !important;
+  align-items: center !important;
 }
 
 .navbar-nav .nav-item a {
@@ -189,13 +195,13 @@ button:focus {
 
 .navbar-nav .nav-item a::after {
   content: "";
-  position: relative;
+  position: absolute;
   display: block;
-  height: 5px;
+  height: 3px;
   width: 0;
   border-radius: 16px;
   background: #c95bf5;
-  bottom: 1px;
+  bottom: 0;
   left: 0;
   z-index: -1;
   transition: all 0.3s ease-out 0s;
@@ -725,7 +731,9 @@ button:focus {
 
 .fork-btn {
   font-size: 1.1em !important;
-  padding-top: 10px !important;
+  padding-top: 0 !important;
+  display: flex !important;
+  align-items: center !important;
 }
 
 .fork-btn-inner {
