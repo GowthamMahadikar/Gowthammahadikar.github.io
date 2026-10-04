@@ -73,20 +73,20 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/education"
+                to="/experience"
                 onClick={() => updateExpanded(false)}
               >
-                <FaSchool  style={{ marginBottom: "2px" }} /> Education & Internships
+                <FaBriefcase style={{ marginBottom: "2px" }} /> Experience
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/experience"
+                to="/education"
                 onClick={() => updateExpanded(false)}
               >
-                <FaBriefcase style={{ marginBottom: "2px" }} /> Experience
+                <FaSchool  style={{ marginBottom: "2px" }} /> Education & Internships
               </Nav.Link>
             </Nav.Item>
            
