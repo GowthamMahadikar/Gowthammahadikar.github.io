@@ -21,8 +21,6 @@ import {
   SiDocker,
   SiPostgresql,
   SiMysql,
-  SiWordpress,
-  SiShopify,
 } from "react-icons/si";
 
 function Techstack() {
@@ -101,14 +99,6 @@ function Techstack() {
 
       <Col xs={4} md={2} className="tech-icons">
         <DiCss3 />
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <SiWordpress />
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <SiShopify />
       </Col>
 
       {/* Version Control */}
