@@ -12,21 +12,15 @@ import {
   SiGo,
   SiPytorch,
   SiTensorflow,
-  SiScikitlearn,
   SiNumpy,
   SiPandas,
-  SiLangchain,
   SiOpenai,
-  SiHuggingface,
-  SiFastapi,
   SiReact,
   SiNodedotjs,
   SiMicrosoftazure,
   SiDocker,
   SiPostgresql,
   SiMysql,
-  SiPinecone,
-  SiChroma,
   SiWordpress,
   SiShopify,
 } from "react-icons/si";
@@ -45,7 +39,6 @@ function Techstack() {
         <DiPython />
       </Col>
 
-
       {/* AI / ML */}
 
       <Col xs={4} md={2} className="tech-icons">
@@ -54,10 +47,6 @@ function Techstack() {
 
       <Col xs={4} md={2} className="tech-icons">
         <SiTensorflow />
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <SiScikitlearn />
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
@@ -71,22 +60,10 @@ function Techstack() {
       {/* Generative AI / LLM */}
 
       <Col xs={4} md={2} className="tech-icons">
-        <SiLangchain />
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
         <SiOpenai />
       </Col>
 
-      <Col xs={4} md={2} className="tech-icons">
-        <SiHuggingface />
-      </Col>
-
-      {/* Backend / Web Frameworks */}
-
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFastapi />
-      </Col>
+      {/* Frontend / Backend */}
 
       <Col xs={4} md={2} className="tech-icons">
         <SiReact />
@@ -106,7 +83,7 @@ function Techstack() {
         <SiDocker />
       </Col>
 
-      {/* Databases / Vector Stores */}
+      {/* Databases */}
 
       <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />
@@ -114,14 +91,6 @@ function Techstack() {
 
       <Col xs={4} md={2} className="tech-icons">
         <SiMysql />
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPinecone />
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <SiChroma />
       </Col>
 
       {/* Web Technologies */}
@@ -147,10 +116,11 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
-      
-        <Col xs={4} md={2} className="tech-icons">
-       <SiGo />
+       
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGo />
       </Col>
+
     </Row>
   );
 }
