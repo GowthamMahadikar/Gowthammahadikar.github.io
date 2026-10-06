@@ -3,7 +3,6 @@ import { Col, Row } from "react-bootstrap";
 import {
   DiPython,
   DiGit,
-  DiJava,
   DiCss3,
   DiDotnet,
 } from "react-icons/di";
@@ -13,6 +12,7 @@ import {
   SiGo,
   SiHtml5,
   SiMicrosoftazure,
+  SiDocker,
 } from "react-icons/si";
 
 function Techstack() {
@@ -44,7 +44,7 @@ function Techstack() {
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <SiDocker />
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
