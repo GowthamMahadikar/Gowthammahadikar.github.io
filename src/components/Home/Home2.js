@@ -15,8 +15,8 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              Hello, I'm <b className="purple">Gowtham Mahadikar</b>, an AI
-              Engineer with a strong background in
+              Hello, I'm <b className="purple">Gowtham Mahadikar</b>, an 
+                <b className="purple">AI Engineer </b> with a strong background in
               <i>
                 <b className="purple"> Python </b>
               </i>
@@ -26,30 +26,29 @@ function Home2() {
               </i>
               <br />
               <br />
-              I specialize in building production-grade solutions using{" "}
+              I specialize in building production-grade AI solutions using{" "}
               <i>
-                <b className="purple">RAG, multi-agent systems, LangChain, Gemini, Whisper, </b>
+                <b className="purple">RAG, LLM applications, LangChain, Gemini, Whisper, </b>
                 and
                 <b className="purple"> Hugging Face models.</b>
               </i>{" "}
               I've built end-to-end RAG pipelines with 
                 <b className="purple"> FAISS, Chroma </b> and 
                 <b className="purple"> Pinecone </b>
-                that sharpen retrieval accuracy for enterprise applications, and I've trained 
+                and I've trained
                 <i> 
-                  <b className="purple"> LoRA models.</b> that keep AI-generated
+                  <b className="purple"> LoRA models.</b>
                   </i>
-              visuals consistent in style for film production.
+              to create consistent AI-generated visuals for film production.
               <br />
               <br />
               My portfolio showcases projects that highlight my skills in{" "}
               <i>
-                <b className="purple">RAG pipelines, LLM integration, LoRA training, Stable Diffusion </b>
+                <b className="purple">RAG pipelines, LLM integration, Multimodal AI, Stable Diffusion </b>
                 </i>
-
               and full-stack AI applications with
-              <b className="purple"> FastAPI, Node.js, React.js </b> and 
-                <b className="purple"> Docker. </b>
+              <b className="purple"> FastAPI, Node.js, React.js, Docker </b> and 
+                <b className="purple"> Azure. </b>
               <br />
               <br />
               I'm always eager to explore new challenges and contribute to
