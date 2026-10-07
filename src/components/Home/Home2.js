@@ -2,10 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.png";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
@@ -18,34 +15,41 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            Hello, I'm <b className="purple"> Gowtham Mahadikar</b>, a passionate developer with a strong background in
-              
+              Hello, I'm <b className="purple">Gowtham Mahadikar</b>, an AI
+              Engineer with a strong background in
               <i>
-                <b className="purple"> Python.</b>
+                <b className="purple"> Python </b>
+              </i>
+              and
+              <i>
+                <b className="purple"> Generative AI.</b>
               </i>
               <br />
               <br />
-              I specialize in creating innovative solutions using advanced technologies such as &nbsp;
+              I specialize in building production-grade solutions using{" "}
               <i>
-                <b className="purple">Stable Diffusion </b> and
-                {" "}
-                <b className="purple">
-                Huggingface models.
-                </b>
-              </i>
+                <b className="purple">RAG, multi-agent systems, LangChain, Gemini, Whisper, </b>
+                and
+                <b className="purple"> Hugging Face models.</b>
+              </i>{" "}
+              I've built end-to-end RAG pipelines with FAISS, Chroma, and
+              Pinecone that sharpen retrieval accuracy for enterprise
+              applications, and I've trained LoRA models that keep AI-generated
+              visuals consistent in style for film production.
               <br />
               <br />
-              My portfolio showcases projects that highlight my skills in machine learning, AI, and generative models.
-              with <b className="purple">Machine learning, Open AI,</b> and
+              My portfolio showcases projects that highlight my skills in{" "}
+              <b className="purple">RAG pipelines, LLM integration, LoRA training, </b>
               <i>
-                <b className="purple">
-                  {" "}
-                  Generative models
-                </b>
+                <b className="purple">Stable Diffusion, </b>
               </i>
-            <br/>
-            <br/>
-            I am always eager to explore new challenges and contribute to meaningful projects. Let’s connect and collaborate on exciting opportunities!
+              and full-stack AI applications with FastAPI, Node.js, React.js,
+              and Docker.
+              <br />
+              <br />
+              I'm always eager to explore new challenges and contribute to
+              meaningful projects. Let's connect and collaborate on exciting
+              opportunities!
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -66,18 +70,17 @@ function Home2() {
                   href="https://github.com/GowthamMahadikar"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <AiFillGithub />
                 </a>
               </li>
-            
               <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/gowthammahadikar"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <FaLinkedinIn />
                 </a>
@@ -99,7 +102,5 @@ function Home2() {
     </Container>
   );
 }
+
 export default Home2;
-
-
-
