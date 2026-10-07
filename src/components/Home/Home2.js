@@ -33,10 +33,12 @@ function Home2() {
                 <b className="purple"> Hugging Face models.</b>
               </i>{" "}
               I've built end-to-end RAG pipelines with 
-                <b className="purple"> FAISS, Chroma, and Pinecone </b>
-                that sharpen retrieval accuracy for enterprise
-              applications, and I've trained 
-                <b className="purple"> LoRA models.</b> that keep AI-generated
+                <b className="purple"> FAISS, Chroma </b> and 
+                <b className="purple"> Pinecone </b>
+                that sharpen retrieval accuracy for enterprise applications, and I've trained 
+                <i> 
+                  <b className="purple"> LoRA models.</b> that keep AI-generated
+                  </i>
               visuals consistent in style for film production.
               <br />
               <br />
@@ -46,7 +48,8 @@ function Home2() {
                 </i>
 
               and full-stack AI applications with
-              <b className="purple"> FastAPI, Node.js, React.js, and Docker. </b>
+              <b className="purple"> FastAPI, Node.js, React.js </b> and 
+                <b className="purple"> Docker. </b>
               <br />
               <br />
               I'm always eager to explore new challenges and contribute to
