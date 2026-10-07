@@ -37,7 +37,7 @@ function Home2() {
                 <b className="purple"> Pinecone </b>
                 and I've trained
                 <i> 
-                  <b className="purple"> LoRA models.</b>
+                  <b className="purple"> LoRA models </b>
                   </i>
               to create consistent AI-generated visuals for film production.
               <br />
