@@ -6,7 +6,7 @@ import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
-import { FaSchool } from "react-icons/fa"
+import { FaSchool, FaBriefcase } from "react-icons/fa"
 import { TbFileCertificate } from "react-icons/tb";
 import {
   AiFillStar,
@@ -73,10 +73,20 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/experience"
+                to="/education"
                 onClick={() => updateExpanded(false)}
               >
                 <FaSchool  style={{ marginBottom: "2px" }} /> Education & Internships
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/experience"
+                onClick={() => updateExpanded(false)}
+              >
+                <FaBriefcase style={{ marginBottom: "2px" }} /> Experience
               </Nav.Link>
             </Nav.Item>
            
@@ -131,4 +141,3 @@ function NavBar() {
 }
 
 export default NavBar;
-
