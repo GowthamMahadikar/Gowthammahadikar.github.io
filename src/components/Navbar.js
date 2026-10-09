@@ -6,7 +6,7 @@ import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
-import { FaSchool, FaBriefcase } from "react-icons/fa"
+import { FaSchool } from "react-icons/fa"
 import { TbFileCertificate } from "react-icons/tb";
 import {
   AiFillStar,
