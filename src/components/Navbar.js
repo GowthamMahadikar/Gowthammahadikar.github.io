@@ -76,7 +76,7 @@ function NavBar() {
                 to="/experience"
                 onClick={() => updateExpanded(false)}
               >
-                <FaSchool  style={{ marginBottom: "2px" }} /> Education & InternShips
+                <FaSchool  style={{ marginBottom: "2px" }} /> Education & Internships
               </Nav.Link>
             </Nav.Item>
            
