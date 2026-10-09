@@ -64,15 +64,6 @@ function EducationProfile() {
             />
           </Col>
 
-          <Col md={4} style={{ marginBottom: "20px" }}>
-            <InternshipCard
-              companyName="Knowledge Flex"
-              role="AI Engineer Intern"
-              duration="December 2025"
-              description="Developing end-to-end RAG pipelines using FAISS, Chroma, and Pinecone, significantly enhancing retrieval accuracy and contextual reasoning for enterprise applications."
-              logoSrc={Knowledgeflexlogo}
-            />
-          </Col>
 
           <Col md={4} style={{ marginBottom: "20px" }}>
             <InternshipCard
@@ -81,6 +72,16 @@ function EducationProfile() {
               duration="April 2024 - March 2025"
               description="Crafted and optimized prompts to enhance AI model outputs, ensuring accuracy and alignment with project goals."
               logoSrc={Daalilogo}
+            />
+          </Col>
+          
+          <Col md={4} style={{ marginBottom: "20px" }}>
+            <InternshipCard
+              companyName="KnowledgeFlex PVT LTD"
+              role="AI Engineer Intern"
+              duration="December 2025 - July 2026"
+              description="Developing end-to-end RAG pipelines using FAISS, Chroma, and Pinecone, significantly enhancing retrieval accuracy and contextual reasoning for enterprise applications."
+              logoSrc={Knowledgeflexlogo}
             />
           </Col>
         </Row>
